@@ -24,7 +24,8 @@ export type BuiltInProviderId =
   | 'tencent-hunyuan'
   | 'xiaomi'
   | 'lemonade'
-  | 'ollama';
+  | 'ollama'
+  | 'huggingface';
 
 /**
  * Provider ID (built-in or custom)

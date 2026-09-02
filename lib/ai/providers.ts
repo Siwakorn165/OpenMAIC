@@ -1501,6 +1501,22 @@ export const PROVIDERS: Record<ProviderId, ProviderConfig> = {
     ],
   },
 
+  huggingface: {
+    id: 'huggingface',
+    name: 'Hugging Face',
+    type: 'openai',
+    // Inference Endpoints are per-account/per-deployment (e.g.
+    // https://xxxxx.region.aws.endpoints.huggingface.cloud/v1) — there is no
+    // shared default URL, so this only shows a placeholder in the settings UI.
+    baseUrlPlaceholder: 'https://YOUR-ENDPOINT.aws.endpoints.huggingface.cloud/v1',
+    supportsModelDiscovery: true,
+    requiresApiKey: true,
+    icon: '/logos/huggingface.svg',
+    // The deployed model is fixed per endpoint, so there's no fixed catalog —
+    // model discovery (or a manually-added model id) supplies it instead.
+    models: [],
+  },
+
   ollama: {
     id: 'ollama',
     name: 'Ollama',

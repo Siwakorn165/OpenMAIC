@@ -82,6 +82,7 @@ export const LLM_ENV_MAP: Record<string, string> = {
   OLLAMA: 'ollama',
   LEMONADE: 'lemonade',
   BEDROCK: 'bedrock',
+  HUGGINGFACE: 'huggingface',
 };
 
 const TTS_ENV_MAP: Record<string, string> = {

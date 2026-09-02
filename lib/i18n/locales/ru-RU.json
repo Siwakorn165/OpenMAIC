@@ -1228,6 +1228,7 @@
       "xiaomi": "Xiaomi MiMo",
       "lemonade": "Lemonade (Локальный)",
       "ollama": "Ollama (Локальный)",
+      "huggingface": "Hugging Face",
       "tavily": "Tavily",
       "bocha": "Bocha",
       "brave": "Brave Search",
