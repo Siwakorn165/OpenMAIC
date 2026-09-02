@@ -1228,6 +1228,7 @@
       "xiaomi": "小米 MiMo",
       "lemonade": "Lemonade（本地）",
       "ollama": "Ollama（本地模型）",
+      "huggingface": "Hugging Face",
       "tavily": "Tavily",
       "bocha": "博查",
       "brave": "Brave Search",

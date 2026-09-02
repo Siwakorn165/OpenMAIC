@@ -1213,6 +1213,7 @@
       "xiaomi": "小米 MiMo",
       "lemonade": "Lemonade（本機）",
       "ollama": "Ollama（本機模型）",
+      "huggingface": "Hugging Face",
       "tavily": "Tavily",
       "bocha": "Bocha",
       "brave": "Brave Search",
